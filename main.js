@@ -219,8 +219,8 @@ form.addEventListener('submit', async e => {
 
     note.className = 'form-note ok';
     note.textContent = ar
-      ? 'تم! سنعلمك فور إطلاق إتزن. 🎉'
-      : "You're in! We'll tell you the moment IT'ZEN launches. 🎉";
+      ? 'تم! سنعلمك فور إطلاق إتزن.'
+      : "You're in! We'll tell you the moment IT'ZEN launches.";
     form.reset();
   } catch {
     note.className = 'form-note err';
